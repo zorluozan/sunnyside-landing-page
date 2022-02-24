@@ -1,0 +1,35 @@
+.link {
+  font-size: 1.5rem;
+  color: $color-black;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: $font-secondary;
+
+  &::after {
+    content: "";
+    display: block;
+    border-radius: 1rem;
+    margin: -0.8rem auto;
+    width: 12rem;
+    opacity: 0.2;
+    position: relative;
+    z-index: -1;
+
+    @media only screen and (min-width: $bp-mobile) {
+      margin: -0.8rem 0;
+      width: 11rem;
+    }
+  }
+
+  &:hover::after {
+    opacity: 1;
+  }
+
+  &--1::after {
+    border-bottom: 1rem solid $color-yellow;
+  }
+
+  &--2::after {
+    border-bottom: 1rem solid $color-pink;
+  }
+}

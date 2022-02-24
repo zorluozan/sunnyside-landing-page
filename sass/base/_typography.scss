@@ -1,0 +1,77 @@
+.heading-1 {
+  font-size: 3rem;
+  color: $color-white;
+}
+
+.heading-2 {
+  font-size: 2.5rem;
+  color: $color-black;
+  font-weight: 900;
+  margin-bottom: 2rem;
+  font-family: $font-secondary;
+  font-weight: 900;
+}
+
+.heading-3 {
+  font-size: 2.5rem;
+  color: $color-dark-desurated-cyan;
+  font-weight: 900;
+  margin-bottom: 2rem;
+  font-family: $font-secondary;
+}
+
+.heading-4 {
+  font-size: 2rem;
+  color: $color-gray;
+  font-weight: 700;
+  font-family: $font-secondary;
+  letter-spacing: 0.3rem;
+}
+
+.heading-5 {
+  font-size: 3rem;
+  color: $color-dark-desurated-cyan;
+  font-weight: 900;
+  margin-bottom: 2rem;
+  font-family: $font-primary;
+}
+
+.paragraph-primary {
+  font-size: 3.5rem;
+  color: $color-white;
+  text-transform: uppercase;
+  letter-spacing: 0.4rem;
+  line-height: 1.5;
+  font-family: $font-secondary;
+  margin-bottom: 7rem;
+}
+
+.paragraph-secondary {
+  font-size: 1.5rem;
+  color: $color-gray;
+  line-height: 1.4;
+  font-weight: 700;
+  margin-bottom: 2rem;
+}
+
+.paragraph-tertiary {
+  font-size: 1.6rem;
+  color: $color-dark-desurated-cyan;
+  line-height: 1.6;
+  font-weight: 700;
+  margin-bottom: 2rem;
+}
+
+.person-text {
+  font-size: 2rem;
+  font-family: $font-secondary;
+  font-weight: bold;
+  color: $color-black;
+  margin-bottom: 1.5rem;
+}
+
+.job-text {
+  font-size: 1.2rem;
+  color: $color-gray;
+  display: block;
+}
